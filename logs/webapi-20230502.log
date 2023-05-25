@@ -1,0 +1,391 @@
+2023-05-02 10:19:52.255 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:19:52.295 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:19:52.296 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:19:52.296 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:19:53.408 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:19:54.083 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:19:54.090 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 5.4455ms
+2023-05-02 10:19:54.094 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 698.9480ms
+2023-05-02 10:19:54.195 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:19:54.363 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProductCategory/ProductCategory" for actions - ShoppingCartAPI.Controllers.ProductCategoryController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ProductCategoryController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 10:19:54.410 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 214.4539ms
+2023-05-02 10:22:37.438 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:22:37.490 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:22:37.491 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:22:37.491 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:22:38.931 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:22:39.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:22:39.857 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 13.2088ms
+2023-05-02 10:22:39.860 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 956.0695ms
+2023-05-02 10:22:40.027 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:22:40.229 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProductCategory/ProductCategory" for actions - ShoppingCartAPI.Controllers.ProductCategoryController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ProductCategoryController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 10:22:40.262 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 234.3246ms
+2023-05-02 10:28:55.839 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:28:55.878 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:28:55.879 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:28:55.879 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:28:56.821 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:28:57.667 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:28:57.695 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 27.3283ms
+2023-05-02 10:28:57.695 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 886.2368ms
+2023-05-02 10:28:57.790 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:28:57.943 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProductCategory/ProductCategory" for actions - ShoppingCartAPI.Controllers.ProductCategoryController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ProductCategoryController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 10:28:57.989 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 198.9901ms
+2023-05-02 10:34:27.769 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:34:27.810 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:34:27.811 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:34:27.811 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:34:28.629 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:34:29.304 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:34:29.317 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 11.0301ms
+2023-05-02 10:34:29.353 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 740.1545ms
+2023-05-02 10:34:29.476 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:34:29.680 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProductCategory/ProductCategory" for actions - ShoppingCartAPI.Controllers.ProductCategoryController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ProductCategoryController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 10:34:29.734 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 257.9657ms
+2023-05-02 10:42:32.548 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:42:32.659 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:42:32.661 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:42:32.661 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:42:33.593 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:42:34.528 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:42:34.537 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 6.5702ms
+2023-05-02 10:42:34.565 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1014.3789ms
+2023-05-02 10:42:34.693 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:42:34.890 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProductCategory/ProductCategory" for actions - ShoppingCartAPI.Controllers.ProductCategoryController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ProductCategoryController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 10:42:34.961 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 268.1444ms
+2023-05-02 10:48:42.130 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:48:42.179 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:48:42.180 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:48:42.180 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:48:43.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:48:43.689 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:48:43.696 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 5.8116ms
+2023-05-02 10:48:43.742 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 725.3438ms
+2023-05-02 10:48:43.902 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:48:44.150 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProductCategory/ProductCategory" for actions - ShoppingCartAPI.Controllers.ProductCategoryController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ProductCategoryController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 10:48:44.197 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 294.2660ms
+2023-05-02 10:52:33.309 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:52:33.353 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:52:33.354 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:52:33.354 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:52:34.435 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:52:35.371 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:52:35.387 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 14.2120ms
+2023-05-02 10:52:35.412 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1001.8060ms
+2023-05-02 10:52:35.520 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:52:35.720 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ProductCategory/ProductCategory" for actions - ShoppingCartAPI.Controllers.ProductCategoryController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ProductCategoryController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 10:52:35.766 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 246.7242ms
+2023-05-02 10:54:29.907 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:54:29.979 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:54:29.980 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:54:29.980 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:54:31.364 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:54:32.228 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:54:32.240 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 6.7874ms
+2023-05-02 10:54:32.264 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 913.8937ms
+2023-05-02 10:54:32.392 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:54:32.598 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 205.9876ms
+2023-05-02 10:55:00.718 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5284/api/User/User application/json 151
+2023-05-02 10:55:00.763 +05:30 [INF] Executing endpoint 'ShoppingCartAPI.Controllers.UserController.AddUsers (ShoppingCartAPI)'
+2023-05-02 10:55:00.842 +05:30 [INF] Route matched with {action = "AddUsers", controller = "User"}. Executing controller action with signature ShoppingCartAPI.Response.ResponseMessage AddUsers(System.Collections.Generic.IEnumerable`1[ShoppingCartApp.Services.ModelViews.UserView]) on controller ShoppingCartAPI.Controllers.UserController (ShoppingCartAPI).
+2023-05-02 10:55:01.666 +05:30 [INF] User Controller executing...
+2023-05-02 10:55:08.101 +05:30 [ERR] Failed executing DbCommand (346ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 10), @p2='?' (Size = 254), @p3='?' (Size = 30), @p4='?' (Size = 30)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Id], [Contact], [EmailID], [FirstName], [LastName])
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2023-05-02 10:55:08.490 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'ShoppinCartApp.DataAccess.Context.DatabaseContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Users' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:934112d7-a589-48d4-94c2-373c4233aab6
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Users' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:934112d7-a589-48d4-94c2-373c4233aab6
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-05-02 10:55:08.594 +05:30 [INF] Executing ObjectResult, writing value of type 'ShoppingCartAPI.Response.ResponseMessage'.
+2023-05-02 10:55:08.630 +05:30 [INF] Executed action ShoppingCartAPI.Controllers.UserController.AddUsers (ShoppingCartAPI) in 7774.238ms
+2023-05-02 10:55:08.632 +05:30 [INF] Executed endpoint 'ShoppingCartAPI.Controllers.UserController.AddUsers (ShoppingCartAPI)'
+2023-05-02 10:55:08.701 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5284/api/User/User application/json 151 - 200 - application/json;+charset=utf-8 7983.0953ms
+2023-05-02 10:55:26.455 +05:30 [INF] Request starting HTTP/1.1 DELETE http://localhost:5284/api/User/UserbyId - -
+2023-05-02 10:55:26.457 +05:30 [INF] Executing endpoint 'ShoppingCartAPI.Controllers.UserController.DeleteUserById (ShoppingCartAPI)'
+2023-05-02 10:55:26.465 +05:30 [INF] Route matched with {action = "DeleteUserById", controller = "User"}. Executing controller action with signature ShoppingCartAPI.Response.ResponseMessage DeleteUserById(Int32) on controller ShoppingCartAPI.Controllers.UserController (ShoppingCartAPI).
+2023-05-02 10:55:28.460 +05:30 [INF] Executed DbCommand (20ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Contact], [u].[EmailID], [u].[FirstName], [u].[LastName]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__id_0
+2023-05-02 10:55:28.489 +05:30 [INF] Executing ObjectResult, writing value of type 'ShoppingCartAPI.Response.ResponseMessage'.
+2023-05-02 10:55:28.489 +05:30 [INF] Executed action ShoppingCartAPI.Controllers.UserController.DeleteUserById (ShoppingCartAPI) in 2023.2166ms
+2023-05-02 10:55:28.489 +05:30 [INF] Executed endpoint 'ShoppingCartAPI.Controllers.UserController.DeleteUserById (ShoppingCartAPI)'
+2023-05-02 10:55:28.490 +05:30 [INF] Request finished HTTP/1.1 DELETE http://localhost:5284/api/User/UserbyId - - - 200 - application/json;+charset=utf-8 2034.9450ms
+2023-05-02 10:58:08.585 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:58:08.627 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:58:08.627 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:58:08.628 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:58:09.786 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:58:10.741 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:58:10.751 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 8.7259ms
+2023-05-02 10:58:10.759 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 993.0177ms
+2023-05-02 10:58:10.903 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:58:11.081 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.9969ms
+2023-05-02 10:59:24.736 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 10:59:24.881 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 10:59:24.883 +05:30 [INF] Hosting environment: Development
+2023-05-02 10:59:24.883 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 10:59:26.005 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 10:59:26.967 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 969.9237ms
+2023-05-02 10:59:27.183 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 10:59:27.191 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 8.1091ms
+2023-05-02 10:59:27.309 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 10:59:27.474 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ShoppingCart/ProductCategory" for actions - ShoppingCartAPI.Controllers.ShoppingCartController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ShoppingCartController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 10:59:27.564 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 255.1573ms
+2023-05-02 11:00:18.718 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 11:00:18.765 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 11:00:18.766 +05:30 [INF] Hosting environment: Development
+2023-05-02 11:00:18.766 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 11:00:20.116 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 11:00:21.346 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 11:00:21.359 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 11.3211ms
+2023-05-02 11:00:21.387 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1281.2004ms
+2023-05-02 11:00:21.519 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 11:00:21.765 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 245.5130ms
+2023-05-02 11:01:03.341 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 11:01:03.421 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 11:01:03.422 +05:30 [INF] Hosting environment: Development
+2023-05-02 11:01:03.423 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 11:01:04.459 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 11:01:05.175 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 11:01:05.190 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 13.7383ms
+2023-05-02 11:01:05.241 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 793.5582ms
+2023-05-02 11:01:05.412 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 11:01:05.701 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 288.7046ms
+2023-05-02 11:01:37.896 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 11:01:37.941 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 11:01:37.943 +05:30 [INF] Hosting environment: Development
+2023-05-02 11:01:37.943 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 11:01:39.628 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 11:01:40.600 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 11:01:40.608 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 6.8353ms
+2023-05-02 11:01:40.651 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1038.9109ms
+2023-05-02 11:01:40.802 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 11:01:41.155 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 352.3478ms
+2023-05-02 11:02:12.794 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 11:02:12.866 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 11:02:12.867 +05:30 [INF] Hosting environment: Development
+2023-05-02 11:02:12.868 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 11:02:14.423 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 11:02:15.406 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 11:02:15.417 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 9.9324ms
+2023-05-02 11:02:15.425 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1030.9557ms
+2023-05-02 11:02:15.623 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 11:02:15.729 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/ShoppingCart/ProductCategory" for actions - ShoppingCartAPI.Controllers.ShoppingCartController.GetAllCategory (ShoppingCartAPI),ShoppingCartAPI.Controllers.ShoppingCartController.DisplayAll (ShoppingCartAPI). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-05-02 11:02:15.809 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 185.8632ms
+2023-05-02 11:03:19.333 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 11:03:19.416 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 11:03:19.418 +05:30 [INF] Hosting environment: Development
+2023-05-02 11:03:19.418 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 11:03:20.825 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 11:03:21.833 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 11:03:21.849 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 10.7948ms
+2023-05-02 11:03:21.879 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1065.7490ms
+2023-05-02 11:03:22.021 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 11:03:22.303 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 281.2327ms
+2023-05-02 11:03:53.412 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 11:03:53.463 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 11:03:53.464 +05:30 [INF] Hosting environment: Development
+2023-05-02 11:03:53.464 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 11:03:54.987 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 11:03:56.180 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 11:03:56.194 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 11.7356ms
+2023-05-02 11:03:56.248 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1275.8202ms
+2023-05-02 11:03:56.490 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 11:03:56.815 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 325.1766ms
+2023-05-02 11:05:54.167 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 11:05:54.211 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 11:05:54.213 +05:30 [INF] Hosting environment: Development
+2023-05-02 11:05:54.213 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 11:05:55.587 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 11:05:56.610 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 11:05:56.629 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 16.1693ms
+2023-05-02 11:05:56.654 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1085.2131ms
+2023-05-02 11:05:56.797 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 11:05:57.080 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 283.5676ms
+2023-05-02 11:11:05.310 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/api/Order/OrderbyUserId?userId=10 - -
+2023-05-02 11:11:05.326 +05:30 [INF] Executing endpoint 'ShoppingCartAPI.Controllers.OrderController.GetOrderByUserid (ShoppingCartAPI)'
+2023-05-02 11:11:05.398 +05:30 [INF] Route matched with {action = "GetOrderByUserid", controller = "Order"}. Executing controller action with signature System.Collections.Generic.List`1[ShoppingCartApp.Services.ModelViews.OrderView] GetOrderByUserid(Int32) on controller ShoppingCartAPI.Controllers.OrderController (ShoppingCartAPI).
+2023-05-02 11:11:06.045 +05:30 [INF] Order executing...
+2023-05-02 11:11:12.694 +05:30 [INF] Executed DbCommand (180ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[FullAddress], [a].[UserId]
+FROM [Addresses] AS [a]
+WHERE [a].[UserId] = @__userId_0
+2023-05-02 11:11:12.865 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[Id], [o].[AddressId], [o].[CartId], [o].[Amount], [o].[Status], [o].[UserId]
+FROM [Orders] AS [o]
+WHERE [o].[UserId] = @__userId_0
+2023-05-02 11:11:12.892 +05:30 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[ShoppingCartApp.Services.ModelViews.OrderView, ShoppingCartApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-02 11:11:12.966 +05:30 [INF] Executed action ShoppingCartAPI.Controllers.OrderController.GetOrderByUserid (ShoppingCartAPI) in 7547.1448ms
+2023-05-02 11:11:12.968 +05:30 [INF] Executed endpoint 'ShoppingCartAPI.Controllers.OrderController.GetOrderByUserid (ShoppingCartAPI)'
+2023-05-02 11:11:13.020 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/api/Order/OrderbyUserId?userId=10 - - - 200 - application/json;+charset=utf-8 7710.4812ms
+2023-05-02 11:15:22.053 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 11:15:22.212 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 11:15:22.213 +05:30 [INF] Hosting environment: Development
+2023-05-02 11:15:22.213 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 11:15:23.715 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 11:15:24.697 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 11:15:24.706 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 7.9925ms
+2023-05-02 11:15:24.754 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1058.8429ms
+2023-05-02 11:15:24.910 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 11:15:25.189 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 278.7330ms
+2023-05-02 12:43:55.274 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 12:43:55.331 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 12:43:55.332 +05:30 [INF] Hosting environment: Development
+2023-05-02 12:43:55.332 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 12:43:56.254 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 12:43:57.612 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 12:43:57.630 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 16.2226ms
+2023-05-02 12:43:57.630 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1386.2522ms
+2023-05-02 12:43:58.013 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 12:43:58.491 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 478.2516ms
+2023-05-02 13:19:50.473 +05:30 [INF] User profile is available. Using 'C:\Users\amrg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-02 13:19:51.252 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 13:19:51.261 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 13:19:51.262 +05:30 [INF] Hosting environment: Development
+2023-05-02 13:19:51.262 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 13:19:52.833 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 13:19:53.972 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 13:19:53.991 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 15.5062ms
+2023-05-02 13:19:54.047 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1228.6768ms
+2023-05-02 13:19:54.366 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 13:19:54.750 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 384.2829ms
+2023-05-02 13:20:37.736 +05:30 [INF] User profile is available. Using 'C:\Users\amrg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-02 13:20:38.254 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 13:20:38.267 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 13:20:38.268 +05:30 [INF] Hosting environment: Development
+2023-05-02 13:20:38.268 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 13:20:39.844 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 13:20:40.656 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 13:20:40.676 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 11.5831ms
+2023-05-02 13:20:40.716 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 903.4859ms
+2023-05-02 13:20:40.888 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 13:20:41.199 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 310.7082ms
+2023-05-02 14:35:23.810 +05:30 [INF] User profile is available. Using 'C:\Users\amrg\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-05-02 14:35:25.199 +05:30 [INF] Now listening on: http://localhost:5284
+2023-05-02 14:35:25.210 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-02 14:35:25.211 +05:30 [INF] Hosting environment: Development
+2023-05-02 14:35:25.211 +05:30 [INF] Content root path: C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartAPI\
+2023-05-02 14:35:27.027 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/index.html - -
+2023-05-02 14:35:28.832 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - -
+2023-05-02 14:35:28.856 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/_framework/aspnetcore-browser-refresh.js - - - 200 12000 application/javascript;+charset=utf-8 21.7496ms
+2023-05-02 14:35:28.923 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/index.html - - - 200 - text/html;charset=utf-8 1927.1984ms
+2023-05-02 14:35:29.301 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - -
+2023-05-02 14:35:29.788 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5284/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 487.2822ms
+2023-05-02 14:36:17.655 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5284/api/User/User application/json 144
+2023-05-02 14:36:17.780 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-05-02 14:36:18.064 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2023-05-02 14:36:18.065 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5284/api/User/User application/json 144 - 401 0 - 409.7005ms

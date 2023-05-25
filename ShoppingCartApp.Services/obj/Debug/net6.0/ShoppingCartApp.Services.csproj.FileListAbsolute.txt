@@ -1,0 +1,17 @@
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\bin\Debug\net6.0\ShoppingCartApp.Services.deps.json
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\bin\Debug\net6.0\ShoppingCartApp.Services.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\bin\Debug\net6.0\ShoppingCartApp.Services.pdb
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.csproj.AssemblyReference.cache
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.AssemblyInfoInputs.cache
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.AssemblyInfo.cs
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\refint\ShoppingCartApp.Services.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.pdb
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ref\ShoppingCartApp.Services.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\bin\Debug\net6.0\ShoppinCartApp.DataAccess.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\bin\Debug\net6.0\ShoppinCartApp.DataAccess.pdb
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.csproj.CopyComplete
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\bin\Debug\net6.0\ShoppingCartApp.Services.runtimeconfig.json
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppingCartApp.Services\obj\Debug\net6.0\ShoppingCartApp.Services.genruntimeconfig.cache

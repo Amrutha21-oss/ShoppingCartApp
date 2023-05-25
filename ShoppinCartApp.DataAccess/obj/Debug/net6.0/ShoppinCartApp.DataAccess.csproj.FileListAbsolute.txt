@@ -1,0 +1,14 @@
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ShoppinCartApp.DataAccess.csproj.AssemblyReference.cache
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ShoppinCartApp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ShoppinCartApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ShoppinCartApp.DataAccess.AssemblyInfo.cs
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ShoppinCartApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\bin\Debug\net6.0\ShoppinCartApp.DataAccess.deps.json
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\bin\Debug\net6.0\ShoppinCartApp.DataAccess.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\bin\Debug\net6.0\ShoppinCartApp.DataAccess.pdb
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ShoppinCartApp.DataAccess.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\refint\ShoppinCartApp.DataAccess.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ShoppinCartApp.DataAccess.pdb
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ref\ShoppinCartApp.DataAccess.dll
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\bin\Debug\net6.0\ShoppinCartApp.DataAccess.runtimeconfig.json
+C:\Users\amrg\Documents\.Net Core Training - 2023 April\ShoppingCartAPP\ShoppinCartApp.DataAccess\obj\Debug\net6.0\ShoppinCartApp.DataAccess.genruntimeconfig.cache
